@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Flex</title>
+
+
+
+    <style>
+
+
+      h1,h2,h3{
+        text-align:center;
+        color: #132743;
+      }
+      body{
+      background-color: #70adb5;
+
+      }
+      #flex:hover{
+        background-color: blue;
+        color: #fff;
+        font-size: 30px;
+      }
+      .pics{
+        display:flex;
+                flex-wrap: wrap;
+              justify-content: center;
+      }
+      img{
+        height:300px;
+        width:300px;
+        margin: 10px;
+       transition: width 2s, height 2s;
+      }
+      img:hover{
+    height : 400px;
+    width: 400px;
+
+      }
+
+    </style>
+  </head>
+  <body>
+    <h1 id="flex" >Flex</h1>
+    <h2> Flowers </h2>
+
+    <div class="pics">
+      <img class="trans" src="img1.jpg" >
+      <img class="trans" src="img2.jpg" >
+      <img src="img3.jpg" >
+      <img src="mg4.jpg">
+      <img src="img5.jpg" >
+      <img src="img6.jpg" >
+
+
+    </div>
+    <h2>Ayesha Qaisar</h2>
+    <h3>1906017</h3>
+
+
+  </body>
+</html>
